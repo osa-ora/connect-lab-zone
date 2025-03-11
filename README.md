@@ -1,4 +1,4 @@
-# How to create a custum workbench in OpenShift AI to deploy your own models
+# How to create a custom workbench in OpenShift AI to deploy your own models
 ---
 
 ## Laboratory Description
