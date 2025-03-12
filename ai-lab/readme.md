@@ -18,26 +18,28 @@ For this lab, an OpenShift cluster has been provisioned, with OpenShift AI deplo
 
 Each person who completes this lab will have their own user with which they can work.
 
-Environmental data
-In a new window, access the OpenShift console and click lab-users to log in with the following credentials:
+### Environmental data
+In a new window, access the OpenShift AI console provided to you from the RH team.
 
+<img width="549" alt="Screenshot 2025-03-12 at 12 31 27 PM" src="https://github.com/user-attachments/assets/42fb6d73-9c5d-404c-bbfc-8a84794bb8a9" />
+
+Click on Login with OpenShift and log in with the following credentials:
 User:
 ```
-user1
+Will be provided by the team.
 ```
 Password:
 ```
-user1
+Will be provided by the team.
 ```
+
 ![image](https://github.com/user-attachments/assets/47679858-fddc-4a77-a231-44e4cb577192)
 
-Since the password is simple, the browser may display the following message:
-
-![image](https://github.com/user-attachments/assets/99ef4e71-34d8-40a1-9bc2-16b51a870643)
+You can switch now to OpenShift AI Console:
 
 You can ignore the message and continue with the lab. Once authenticated, the following console will be displayed:
 
-![image](https://github.com/user-attachments/assets/a4a154c0-9671-4bb8-bbf1-f0b0474c5d86)
+<img width="1478" alt="Screenshot 2025-03-12 at 12 34 20 PM" src="https://github.com/user-attachments/assets/db7e6b7a-e8a3-44fd-90e0-53cd50b5259c" />
 
 Congratulations! You are now connected to OpenShift AI and ready to start the lab.
 
@@ -57,27 +59,30 @@ Image location:
 ```
 quay.io/acidonpe/ocp-ai-insurance-model:1.0
 ```
-Name: 
+Name: (Add Your user to the name)
 ```
-Custom AI image
+Custom AI image User X
 ```
-![image](https://github.com/user-attachments/assets/5e285c48-5600-48ba-8f41-c97a2d9d76ec)
+<img width="665" alt="Screenshot 2025-03-12 at 12 54 28 PM" src="https://github.com/user-attachments/assets/1d1b0d91-210b-453b-8040-18ab44afef97" />
 
 The rest of the fields can be left blank. Then, click Import.
 
 The image will be imported as shown below:
 
-![image](https://github.com/user-attachments/assets/46eced15-4ddb-4d9a-b142-5e5da8a60dad)
+<img width="1241" alt="Screenshot 2025-03-12 at 12 55 08 PM" src="https://github.com/user-attachments/assets/2238589a-b25a-4d9b-a201-a40949904c2f" />
 
 ### Create workbench
 
-Next, a workspace will be created within the project user1. To do this, go to the left navigation panel, click Data Science Projects, and select the project user1.
+Next, a workspace will be created within the user project.
+Note: Your Data Science project is same as your user so for user1 it will be user1 for user2 it will be user2, etc..
+
+Go to the left navigation panel, click Data Science Projects, and select your project.
 
 ![image](https://github.com/user-attachments/assets/0c0a1c38-c87d-46dd-af3d-87a2abf6bd94)
 
-Within the project user1, select Create a workbench.
+Within the project, select Create a workbench.
 
-![image](https://github.com/user-attachments/assets/34befdc2-0413-4b3d-adc2-45a988d6515f)
+<img width="888" alt="Screenshot 2025-03-12 at 12 48 57 PM" src="https://github.com/user-attachments/assets/03ef4605-89b2-4e78-b389-9f621ba03593" />
 
 Complete the fields with the following information:
 
@@ -85,22 +90,24 @@ Name:
 ```
 Lab Workbench
 ```
-Image selection: 
+Image selection: //select the image you just imported in the previous step
 ```
-Custom AI image
+Custom AI image User X
 ```
 Deployment size: 
 ```
-Small
+Standard
 ```
 
 The remaining fields can be left with their default values. Check that the result is as follows, and click Create workbenchto create the workbench:
 
-![image](https://github.com/user-attachments/assets/e5c3381c-ff1f-422e-953e-43ddbade201b)
+<img width="755" alt="Screenshot 2025-03-12 at 12 57 47 PM" src="https://github.com/user-attachments/assets/97358254-7123-4e47-b0ec-8f70668eba8f" />
 
 ### Start the workbench
 
-Once the workbench has been created, wait for its status to change to Running.
+Once the workbench has been created, wait for its status to change to Running, this can take minutes to pull the image and create the workbench. You can follow the progress if you click on status --> Event Log:
+
+<img width="456" alt="Screenshot 2025-03-12 at 1 06 13 PM" src="https://github.com/user-attachments/assets/8048e932-83ef-47c0-ab7f-171d955ba5c4" />
 
 Once it's running, we can access the work environment, to do this click on Open.
 
@@ -110,12 +117,13 @@ To access the workbench, you must authenticate with your OpenShift AI credential
 
 User:
 ```
-user1
+Same provided User
 ```
 Password:
 ```
-user1
+Same provided password
 ```
+
 The following permissions must then be accepted.
 
 ![image](https://github.com/user-attachments/assets/e83e8965-cd4c-4ab7-9a11-f77c21c347f9)
@@ -167,5 +175,5 @@ Congratulations! You've now run the AI/ML model for crash recognition using a cu
 
 ## References:
 
-This is a translation of this lab: https://rhcs-workshops.github.io/summit-connect-madrid-openshift-ai-lab/summit-ocpai-lab/index.html
+This is a translation and modified copy of this lab: https://rhcs-workshops.github.io/summit-connect-madrid-openshift-ai-lab/summit-ocpai-lab/index.html
 
