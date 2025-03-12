@@ -1,7 +1,7 @@
 # How to create a custom workbench in OpenShift AI to deploy your own models
 ---
 
-## Laboratory Description
+## Lab Overview
 In this laboratory we have developed an AI model that is based on image processing capable of detecting a vehicle accident based on the information that can be obtained from a photo of an accident.
 
 Thanks to OpenShift AI, we will be able to deploy in minutes a customized execution environment (workbench) that has all the necessary tools to execute the model, such as specific Python libraries and the Jupyter solution, and we will analyze an image to see how this developed model can evaluate a claim.
@@ -98,14 +98,22 @@ Deployment size:
 ```
 Standard
 ```
+Persistence Storage Name  //Add your user to the end of the name
+```
+My Workbench User X
+```
 Storage size: 
 ```
 8 Gi
 ```
 
-The remaining fields can be left with their default values. Check that the result is as follows, and click Create workbenchto create the workbench:
+The remaining fields can be left with their default values. Check that the result is as follows:
 
-<img width="755" alt="Screenshot 2025-03-12 at 12 57 47 PM" src="https://github.com/user-attachments/assets/97358254-7123-4e47-b0ec-8f70668eba8f" />
+<img width="747" alt="Screenshot 2025-03-12 at 1 58 14 PM" src="https://github.com/user-attachments/assets/3acb8b77-d61e-4486-855e-4315aa6f4b0a" />
+
+<img width="559" alt="Screenshot 2025-03-12 at 1 56 18 PM" src="https://github.com/user-attachments/assets/586d23fe-456d-4a2f-8d78-e608a269e57a" />
+
+Click "Create workbench" to create the workbench:
 
 ### Start the workbench
 
