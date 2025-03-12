@@ -98,6 +98,10 @@ Deployment size:
 ```
 Standard
 ```
+Storage size: 
+```
+8 Gi
+```
 
 The remaining fields can be left with their default values. Check that the result is as follows, and click Create workbenchto create the workbench:
 
@@ -111,7 +115,8 @@ Once the workbench has been created, wait for its status to change to Running, t
 
 Once it's running, we can access the work environment, to do this click on Open.
 
-![image](https://github.com/user-attachments/assets/ef6780db-bdc2-471d-8383-4403900cb27a)
+<img width="1237" alt="Screenshot 2025-03-12 at 1 37 36 PM" src="https://github.com/user-attachments/assets/8d091503-f8c2-42c2-8e96-77cf65cfa550" />
+
 
 To access the workbench, you must authenticate with your OpenShift AI credentials. To do so, click lab-users and log in with the following credentials:
 
@@ -148,11 +153,11 @@ https://github.com/rhcs-workshops/summit-connect-madrid-openshift-ai-lab.git
 
 ![image](https://github.com/user-attachments/assets/218bfe99-1525-4449-adb6-6d52ddd17a7f)
 
-Once the repository is imported into the JupyterLab server, we will access the repository by double-clicking on the . folder summit-connect-madrid-openshift-ai-lab.
+Once the repository is imported into the JupyterLab server, we will access the repository by double-clicking on the folder "summit-connect-madrid-openshift-ai-lab".
 
 ![image](https://github.com/user-attachments/assets/45b68167-8a4f-4c89-a7f3-5de5f148de99)
 
-To view the model you are going to work with, select the folder lab and open the file named accident-recog.ipynbthat contains the model.
+To view the model you are going to work with, select the folder lab and open the file named "accident-recog.ipynb" that contains the model.
 
 ![image](https://github.com/user-attachments/assets/7fbd030e-655c-4458-8bb1-30dd24f34b6c)
 
