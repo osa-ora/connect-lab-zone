@@ -106,6 +106,7 @@ Storage size:
 ```
 8 Gi
 ```
+Don't select any accelerator as we don't need it in our lab.
 
 The remaining fields can be left with their default values. Check that the result is as follows:
 
